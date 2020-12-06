@@ -1,0 +1,10 @@
+{
+    "allow": [
+        "read",
+        "net"
+    ],
+    "scripts": {
+        "start": "deno run dev.ts",
+        "test": "deno test"
+    }
+}
