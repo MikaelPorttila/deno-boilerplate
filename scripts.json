@@ -1,0 +1,17 @@
+{
+    "allow": [
+        "read",
+        "net"
+    ],
+    "scripts": {
+        "start": "deno run dev.ts",
+        "test": "deno test"
+    },
+    "watcher": {
+        "interval": 350,
+        "exts": ["js", "jsx", "ts", "tsx", "json"],
+        "match": ["**/*.*"],
+        "skip": ["*/.git/*", "*/cert/*"],
+        "legacy": false
+    }
+}
