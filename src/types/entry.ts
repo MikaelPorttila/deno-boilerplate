@@ -1,5 +1,5 @@
 export class Entry {
-    constructor(
-        public name: string
-    ) {}
+	constructor(
+		public name: string
+	) { }
 }

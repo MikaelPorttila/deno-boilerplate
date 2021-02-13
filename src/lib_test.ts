@@ -1,10 +1,7 @@
-import {
-    assert
-} from "https://deno.land/std/testing/asserts.ts";
+import { assert } from "../test_deps.ts";
+import { getEntry } from "./lib.ts";
 
-import { getEntry } from './lib.ts';
-
-Deno.test('Get Entry', async () => {
-    const result = await getEntry();
-    assert(!!result, 'Entry is undefined');
+Deno.test("Get Entry", async () => {
+  const result = await getEntry();
+  assert(!!result, "Entry is undefined");
 });
