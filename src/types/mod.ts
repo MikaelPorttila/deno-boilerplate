@@ -1,1 +1,1 @@
-export * from './entry.ts';
+export type { Entry } from './entry.ts';
